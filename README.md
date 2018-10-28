@@ -1,4 +1,4 @@
-# label-float-input 
+# label-float-select 
 
 ## install
     npm -i --save label-float-select
@@ -13,7 +13,7 @@ export default class Custom extends React.Component{
     render(){
         return(
             <div className="parent-wrapper">
-                <LabelFloatInput 
+                <LabelFloatSelect 
                     ref=""
                     options={[{value:'',label:''}]}
                     label="Select the Application"
