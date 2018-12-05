@@ -88,7 +88,7 @@ module.exports =
 	            'select-label': {
 	                float: 'left',
 	                width: '100%',
-	                color: props.color ? props.color : '#0564b2',
+	                color: props.color ? props.color : 'black',
 	                fontFamily: props.fontFamily ? props.fontFamily : 'monospace',
 	                fontSize: props.fontSize ? props.fontSize : '15px'
 	            },
@@ -97,8 +97,8 @@ module.exports =
 	                paddingTop: '10px',
 	                paddingBottom: '10px',
 	                border: '0px',
-	                borderBottom: '2px solid ' + (props.color ? props.color : '#0564b2'),
-	                color: props.color ? props.color : '#0564b2',
+	                borderBottom: '2px solid ' + (props.color ? props.color : 'black'),
+	                color: props.color ? props.color : 'black',
 	                outline: '0px',
 	                fontFamily: props.fontFamily ? props.fontFamily : 'monospace'
 	            }
